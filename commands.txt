@@ -1,0 +1,31 @@
+wsl // ubuntu
+
+move to home:
+cd ~
+
+create folder:
+mkdir flask_api
+
+move into folder:
+cd flask_api
+
+sudo apt install python3
+sudo apt install python3-venv
+sudo apt install python3-pip
+
+# create the virutal evn
+python3 -m venv venv
+
+#activate vitrual evn
+source venv/bin/activate
+
+# install flask and requests
+pip install flask
+pip install requests
+
+# create code
+# run server
+python3 server.py
+
+# deactivate virtual evn
+deactivate
